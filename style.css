@@ -1,7 +1,7 @@
 .ear{
      display: flex;
      position: absolute;
-     margin-left: 37%;
+     margin-left: 55%;
      margin-top: 6%;
      
 }
@@ -14,8 +14,20 @@
     border-top-left-radius:50% ;
     margin-right: 40px;
 }
-
-
+.main{
+    background:url("./pigg.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+    margin:auto;
+    margin-left: 31%;
+    border: 2px solid black;
+}
+.pig{
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 7%;
+}
 
 .face{
     height: 500px;
@@ -24,9 +36,9 @@
     background: pink;
     border-radius: 50%;
     border: 5px solid black;
-    position: fixed;
+    position: absolute;
     margin-top: 7%;
-    margin-left:35.25% ;
+    margin-left:35.25%;
     
 }
 .eyebrows{
